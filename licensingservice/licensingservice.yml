@@ -9,6 +9,4 @@ spring.datasource.password: "{cipher}8af259ebda1fe4fff6b678875c643d372e7c26ad81e
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-redis.server: "redis"
-redis.port: "6379"
 signing.key: "345345fsdfsf5345"

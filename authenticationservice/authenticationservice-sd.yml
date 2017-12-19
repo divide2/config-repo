@@ -1,0 +1,17 @@
+spring.jpa.database: "MYSQL"
+spring.datasource.platform:  "mysql"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "com.mysql.jdbc.Driver"
+#spring.datasource.url: "jdbc:mysql://localhost:3306/divide2_local?useSSL=false"
+spring.datasource.username: "root"
+#spring.datasource.password: "{cipher}8af259ebda1fe4fff6b678875c643d372e7c26ad81e8ea2f784ab6a48ae94c99"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.MySQL5Dialect"
+spring.jpa.properties.hibernate.hbm2ddl.auto: "update"
+signing.key: "345345fsdfsf5345"
+spring.jackson.serialization.write_dates_as_timestamps: "false"
+spring:
+  datasource:
+    password: 123456
+    url: jdbc:mysql://192.168.99.100:3306/divide2_local?useSSL=false
